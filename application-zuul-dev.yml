@@ -14,4 +14,7 @@ zuul:
     plat:
       serviceId: AIGOU-PLAT
       path: /plat/**
+    product:
+      serviceId: AIGOU-PRODUCT
+      path: /plat/**
   prefix: /services
