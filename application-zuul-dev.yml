@@ -10,6 +10,7 @@ spring:
 #路由配置
 zuul:
   ignoredServices: '*' #只能通过路由访问，不能使用服务名访问
+  prefix: /services
   routes:
     plat:
       serviceId: AIGOU-PLAT
@@ -20,4 +21,4 @@ zuul:
     common:         #添加common公共服务的路由
       serviceId: AIGOU-COMMON
       path: /common/**
-  prefix: /services
+  
