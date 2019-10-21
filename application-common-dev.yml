@@ -6,4 +6,4 @@ spring:
     name: AIGOU-COMMON
   data:
     elasticsearch:
-      cluster-nodes: localhost:9300
+      cluster-nodes: localhost:930
